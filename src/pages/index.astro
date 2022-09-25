@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="bg-gray-900">
+		<div class="flex-row justify-center text-center p-4 h-screen">
+			<div class="flex flex-col justify-center h-full cursor-pointer hover:-translate-y-2 transition">;
+				<h1 class="font-extrabold text-6xl bg-clip-text text-transparent
+					bg-gradient-to-r from-orange-600 to-indigo-300">Welcome to Astro!</h1>
+				<p class="text-white flex justify-center">Built with 
+				<Icon class="h-4 w-4 translate-y-1 mx-1" name="mdi:heart"/> using 
+				<span class="font-extrabold bg-gradient-to-r from-orange-600
+				to-indigo-300 bg-clip-text text-transparent mx-1">Tailwind</span> css</p>
+			</div>
+		</div>
+
+	</main>
+</Layout>
